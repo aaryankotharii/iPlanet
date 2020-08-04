@@ -11,6 +11,9 @@
 		5B6FE16824D9389500478007 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6FE16724D9389500478007 /* ContentView.swift */; };
 		5B6FE16A24D9389900478007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6FE16924D9389900478007 /* Assets.xcassets */; };
 		5B6FE16D24D9389900478007 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6FE16C24D9389900478007 /* Preview Assets.xcassets */; };
+		5B6FE17524D93B6F00478007 /* Planets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6FE17424D93B6F00478007 /* Planets */; };
+		5B6FE17724D93BCE00478007 /* PlanetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6FE17624D93BCE00478007 /* PlanetData.swift */; };
+		5B6FE17924D93C6800478007 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6FE17824D93C6800478007 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		5B6FE16924D9389900478007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B6FE16C24D9389900478007 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B6FE16E24D9389900478007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B6FE17424D93B6F00478007 /* Planets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Planets; sourceTree = "<group>"; };
+		5B6FE17624D93BCE00478007 /* PlanetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetData.swift; sourceTree = "<group>"; };
+		5B6FE17824D93C6800478007 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 			children = (
 				5B6FE16524D9389500478007 /* iPlanetApp.swift */,
 				5B6FE16724D9389500478007 /* ContentView.swift */,
+				5B6FE17424D93B6F00478007 /* Planets */,
 				5B6FE16924D9389900478007 /* Assets.xcassets */,
 				5B6FE16E24D9389900478007 /* Info.plist */,
 				5B6FE16B24D9389900478007 /* Preview Content */,
+				5B6FE17624D93BCE00478007 /* PlanetData.swift */,
+				5B6FE17824D93C6800478007 /* HomeView.swift */,
 			);
 			path = iPlanet;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B6FE17524D93B6F00478007 /* Planets in Resources */,
 				5B6FE16D24D9389900478007 /* Preview Assets.xcassets in Resources */,
 				5B6FE16A24D9389900478007 /* Assets.xcassets in Resources */,
 			);
@@ -139,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B6FE16824D9389500478007 /* ContentView.swift in Sources */,
+				5B6FE17924D93C6800478007 /* HomeView.swift in Sources */,
 				5B6FE16624D9389500478007 /* iPlanetApp.swift in Sources */,
+				5B6FE17724D93BCE00478007 /* PlanetData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
