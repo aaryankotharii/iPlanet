@@ -6,9 +6,11 @@
 //
 
 import SwiftUI
+import SceneKit
 
 struct HomeView: View {
-    @State var Planets = [
+    
+    @State var planets = [
         
         PlanetData(id: 0, name: "Earth", modelName: "Earth.usdz", details: "Earth is the third planet from the Sun and the only astronomical object known to harbor life. According to radiometric dating estimation and other evidence, Earth formed over 4.5 billion years ago. Earth's gravity interacts with other objects in space, especially the Sun and the Moon, which is Earth's only natural satellite. Earth orbits around the Sun in 365.256 solar days."),
         
@@ -37,7 +39,9 @@ struct HomeView: View {
     
     var body: some View {
         VStack{
-            
+            SceneView(scene: SCNScene(named:  planets[index].modelName), options: [.allowsCameraControl,.autoenablesDefaultLighting])
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height/2)
+                Spacer()
         }
     }
 }
