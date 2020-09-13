@@ -39,9 +39,9 @@ struct HomeView: View {
     
     var body: some View {
         VStack{
-            SceneView(scene: SCNScene(named:  planets[index].modelName), options: [.allowsCameraControl,.autoenablesDefaultLighting])
+            SceneView(scene: SCNScene(named:  "Earth.usdz"), options: [.allowsCameraControl,.autoenablesDefaultLighting])
                 .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height/2)
-                Spacer()
+            Text("HELLO")
         }
     }
 }

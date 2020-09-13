@@ -8,24 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		5B6FE16624D9389500478007 /* iPlanetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6FE16524D9389500478007 /* iPlanetApp.swift */; };
-		5B6FE16824D9389500478007 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6FE16724D9389500478007 /* ContentView.swift */; };
 		5B6FE16A24D9389900478007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6FE16924D9389900478007 /* Assets.xcassets */; };
 		5B6FE16D24D9389900478007 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6FE16C24D9389900478007 /* Preview Assets.xcassets */; };
-		5B6FE17524D93B6F00478007 /* Planets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6FE17424D93B6F00478007 /* Planets */; };
 		5B6FE17724D93BCE00478007 /* PlanetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6FE17624D93BCE00478007 /* PlanetData.swift */; };
 		5B6FE17924D93C6800478007 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6FE17824D93C6800478007 /* HomeView.swift */; };
+		5B902DB1250E56C600634A3B /* Uranus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5B902DA6250E56C600634A3B /* Uranus.usdz */; };
+		5B902DB2250E56C600634A3B /* Pluto.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5B902DA7250E56C600634A3B /* Pluto.usdz */; };
+		5B902DB3250E56C600634A3B /* Mars.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5B902DA8250E56C600634A3B /* Mars.usdz */; };
+		5B902DB4250E56C600634A3B /* Venus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5B902DA9250E56C600634A3B /* Venus.usdz */; };
+		5B902DB5250E56C600634A3B /* Jupiter.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5B902DAA250E56C600634A3B /* Jupiter.usdz */; };
+		5B902DB6250E56C600634A3B /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5B902DAB250E56C600634A3B /* Earth.usdz */; };
+		5B902DB7250E56C600634A3B /* Moon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5B902DAC250E56C600634A3B /* Moon.usdz */; };
+		5B902DB8250E56C600634A3B /* Mercury.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5B902DAD250E56C600634A3B /* Mercury.usdz */; };
+		5B902DB9250E56C600634A3B /* Neptune.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5B902DAE250E56C600634A3B /* Neptune.usdz */; };
+		5B902DBA250E56C600634A3B /* Saturn.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5B902DAF250E56C600634A3B /* Saturn.usdz */; };
+		5B902DBB250E56C600634A3B /* Sun.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5B902DB0250E56C600634A3B /* Sun.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B6FE16224D9389500478007 /* iPlanet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPlanet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6FE16524D9389500478007 /* iPlanetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPlanetApp.swift; sourceTree = "<group>"; };
-		5B6FE16724D9389500478007 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5B6FE16924D9389900478007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B6FE16C24D9389900478007 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B6FE16E24D9389900478007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B6FE17424D93B6F00478007 /* Planets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Planets; sourceTree = "<group>"; };
 		5B6FE17624D93BCE00478007 /* PlanetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetData.swift; sourceTree = "<group>"; };
 		5B6FE17824D93C6800478007 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5B902DA5250E56A800634A3B /* Planets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Planets; path = iPlanet/Planets; sourceTree = "<group>"; };
+		5B902DA6250E56C600634A3B /* Uranus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Uranus.usdz; path = iPlanet/Planets/Uranus.usdz; sourceTree = "<group>"; };
+		5B902DA7250E56C600634A3B /* Pluto.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Pluto.usdz; path = iPlanet/Planets/Pluto.usdz; sourceTree = "<group>"; };
+		5B902DA8250E56C600634A3B /* Mars.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Mars.usdz; path = iPlanet/Planets/Mars.usdz; sourceTree = "<group>"; };
+		5B902DA9250E56C600634A3B /* Venus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Venus.usdz; path = iPlanet/Planets/Venus.usdz; sourceTree = "<group>"; };
+		5B902DAA250E56C600634A3B /* Jupiter.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Jupiter.usdz; path = iPlanet/Planets/Jupiter.usdz; sourceTree = "<group>"; };
+		5B902DAB250E56C600634A3B /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Earth.usdz; path = iPlanet/Planets/Earth.usdz; sourceTree = "<group>"; };
+		5B902DAC250E56C600634A3B /* Moon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Moon.usdz; path = iPlanet/Planets/Moon.usdz; sourceTree = "<group>"; };
+		5B902DAD250E56C600634A3B /* Mercury.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Mercury.usdz; path = iPlanet/Planets/Mercury.usdz; sourceTree = "<group>"; };
+		5B902DAE250E56C600634A3B /* Neptune.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Neptune.usdz; path = iPlanet/Planets/Neptune.usdz; sourceTree = "<group>"; };
+		5B902DAF250E56C600634A3B /* Saturn.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Saturn.usdz; path = iPlanet/Planets/Saturn.usdz; sourceTree = "<group>"; };
+		5B902DB0250E56C600634A3B /* Sun.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Sun.usdz; path = iPlanet/Planets/Sun.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +61,18 @@
 		5B6FE15924D9389500478007 = {
 			isa = PBXGroup;
 			children = (
+				5B902DAB250E56C600634A3B /* Earth.usdz */,
+				5B902DAA250E56C600634A3B /* Jupiter.usdz */,
+				5B902DA8250E56C600634A3B /* Mars.usdz */,
+				5B902DAD250E56C600634A3B /* Mercury.usdz */,
+				5B902DAC250E56C600634A3B /* Moon.usdz */,
+				5B902DAE250E56C600634A3B /* Neptune.usdz */,
+				5B902DA7250E56C600634A3B /* Pluto.usdz */,
+				5B902DAF250E56C600634A3B /* Saturn.usdz */,
+				5B902DB0250E56C600634A3B /* Sun.usdz */,
+				5B902DA6250E56C600634A3B /* Uranus.usdz */,
+				5B902DA9250E56C600634A3B /* Venus.usdz */,
+				5B902DA5250E56A800634A3B /* Planets */,
 				5B6FE16424D9389500478007 /* iPlanet */,
 				5B6FE16324D9389500478007 /* Products */,
 			);
@@ -59,8 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				5B6FE16524D9389500478007 /* iPlanetApp.swift */,
-				5B6FE16724D9389500478007 /* ContentView.swift */,
-				5B6FE17424D93B6F00478007 /* Planets */,
 				5B6FE16924D9389900478007 /* Assets.xcassets */,
 				5B6FE16E24D9389900478007 /* Info.plist */,
 				5B6FE16B24D9389900478007 /* Preview Content */,
@@ -135,7 +164,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B6FE17524D93B6F00478007 /* Planets in Resources */,
+				5B902DB1250E56C600634A3B /* Uranus.usdz in Resources */,
+				5B902DB2250E56C600634A3B /* Pluto.usdz in Resources */,
+				5B902DB3250E56C600634A3B /* Mars.usdz in Resources */,
+				5B902DB4250E56C600634A3B /* Venus.usdz in Resources */,
+				5B902DB5250E56C600634A3B /* Jupiter.usdz in Resources */,
+				5B902DB6250E56C600634A3B /* Earth.usdz in Resources */,
+				5B902DB7250E56C600634A3B /* Moon.usdz in Resources */,
+				5B902DB8250E56C600634A3B /* Mercury.usdz in Resources */,
+				5B902DB9250E56C600634A3B /* Neptune.usdz in Resources */,
+				5B902DBA250E56C600634A3B /* Saturn.usdz in Resources */,
+				5B902DBB250E56C600634A3B /* Sun.usdz in Resources */,
 				5B6FE16D24D9389900478007 /* Preview Assets.xcassets in Resources */,
 				5B6FE16A24D9389900478007 /* Assets.xcassets in Resources */,
 			);
@@ -148,7 +187,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B6FE16824D9389500478007 /* ContentView.swift in Sources */,
 				5B6FE17924D93C6800478007 /* HomeView.swift in Sources */,
 				5B6FE16624D9389500478007 /* iPlanetApp.swift in Sources */,
 				5B6FE17724D93BCE00478007 /* PlanetData.swift in Sources */,
