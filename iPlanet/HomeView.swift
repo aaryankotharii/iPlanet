@@ -11,11 +11,14 @@ import SceneKit
 struct HomeView: View {
     
     var planet : PlanetData
+    
+    @State var isAnimating : Bool = false
         
     var body: some View {
         VStack{
             SceneView(scene: SCNScene(named:  planet.modelName), options: [.allowsCameraControl,.autoenablesDefaultLighting])
                 .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height/2)
+                .scaleEffect(isAnimating ? 1.0 : 0.6)
             
             Text(planet.name)
                 .foregroundColor(.primary)
@@ -28,11 +31,16 @@ struct HomeView: View {
             .padding(.horizontal)
             Spacer()
         } //: VSTACK
+        .onAppear(perform: {
+            withAnimation(.easeOut(duration: 0.5)) {
+                isAnimating = true
+            }
+        })
     }
 }
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView(planet: <#PlanetData#>)
+        HomeView(planet: PlanetData(id: 1, name: "", modelName: "", details: ""))
     }
 }

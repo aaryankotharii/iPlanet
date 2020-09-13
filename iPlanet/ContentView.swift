@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var solarSystem : [PlanetData] = planets
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            ForEach(solarSystem) { planet in
+                HomeView(planet: planet)
+            } //: LOOP
+        } //: TAB
+        .tabViewStyle(PageTabViewStyle())
+        .padding(.vertical,20)
     }
 }
 
