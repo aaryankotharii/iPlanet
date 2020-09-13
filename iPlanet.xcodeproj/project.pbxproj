@@ -23,6 +23,8 @@
 		5B902DB9250E56C600634A3B /* Neptune.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5B902DAE250E56C600634A3B /* Neptune.usdz */; };
 		5B902DBA250E56C600634A3B /* Saturn.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5B902DAF250E56C600634A3B /* Saturn.usdz */; };
 		5B902DBB250E56C600634A3B /* Sun.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5B902DB0250E56C600634A3B /* Sun.usdz */; };
+		5B902DBD250E58E100634A3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B902DBC250E58E100634A3B /* ContentView.swift */; };
+		5B902DBF250E591C00634A3B /* Planets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B902DBE250E591C00634A3B /* Planets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		5B902DAE250E56C600634A3B /* Neptune.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Neptune.usdz; path = iPlanet/Planets/Neptune.usdz; sourceTree = "<group>"; };
 		5B902DAF250E56C600634A3B /* Saturn.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Saturn.usdz; path = iPlanet/Planets/Saturn.usdz; sourceTree = "<group>"; };
 		5B902DB0250E56C600634A3B /* Sun.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Sun.usdz; path = iPlanet/Planets/Sun.usdz; sourceTree = "<group>"; };
+		5B902DBC250E58E100634A3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B902DBE250E591C00634A3B /* Planets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 				5B6FE16B24D9389900478007 /* Preview Content */,
 				5B6FE17624D93BCE00478007 /* PlanetData.swift */,
 				5B6FE17824D93C6800478007 /* HomeView.swift */,
+				5B902DBC250E58E100634A3B /* ContentView.swift */,
+				5B902DBE250E591C00634A3B /* Planets.swift */,
 			);
 			path = iPlanet;
 			sourceTree = "<group>";
@@ -188,7 +194,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B6FE17924D93C6800478007 /* HomeView.swift in Sources */,
+				5B902DBF250E591C00634A3B /* Planets.swift in Sources */,
 				5B6FE16624D9389500478007 /* iPlanetApp.swift in Sources */,
+				5B902DBD250E58E100634A3B /* ContentView.swift in Sources */,
 				5B6FE17724D93BCE00478007 /* PlanetData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
