@@ -7,6 +7,8 @@
 
 import Foundation
 
+// MARK - PLANET MODEL
+
 struct PlanetData: Identifiable {
     var id : Int
     var name : String

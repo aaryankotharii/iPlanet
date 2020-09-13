@@ -9,11 +9,11 @@ import SwiftUI
 import SceneKit
 
 struct HomeView: View {
-    
+    //MARK - PROERTIES
     var planet : PlanetData
-    
     @State var isAnimating : Bool = false
         
+    // MARK - BODY
     var body: some View {
         VStack{
             SceneView(scene: SCNScene(named:  planet.modelName), options: [.allowsCameraControl,.autoenablesDefaultLighting])
@@ -31,14 +31,16 @@ struct HomeView: View {
             .padding(.horizontal)
             Spacer()
         } //: VSTACK
-        .onAppear(perform: {
-            withAnimation(.easeOut(duration: 0.5)) {
-                isAnimating = true
-            }
-        })
+        .onAppear(perform: animatePlanet)
     }
+    func animatePlanet(){
+        withAnimation(.easeOut(duration: 0.5)) {
+            isAnimating = true
+        }
+    } //: ANIMATE
 }
 
+// MARK - PREVIEW
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView(planet: PlanetData(id: 1, name: "", modelName: "", details: ""))

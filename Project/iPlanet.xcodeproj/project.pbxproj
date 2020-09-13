@@ -93,14 +93,13 @@
 		5B6FE16424D9389500478007 /* iPlanet */ = {
 			isa = PBXGroup;
 			children = (
+				5B902DC4250E8A1B00634A3B /* View */,
+				5B902DC3250E8A1200634A3B /* App */,
+				5B902DC2250E89B000634A3B /* Model */,
 				5B6FE16524D9389500478007 /* iPlanetApp.swift */,
 				5B6FE16924D9389900478007 /* Assets.xcassets */,
 				5B6FE16E24D9389900478007 /* Info.plist */,
 				5B6FE16B24D9389900478007 /* Preview Content */,
-				5B6FE17624D93BCE00478007 /* PlanetData.swift */,
-				5B6FE17824D93C6800478007 /* HomeView.swift */,
-				5B902DBC250E58E100634A3B /* ContentView.swift */,
-				5B902DBE250E591C00634A3B /* Planets.swift */,
 			);
 			path = iPlanet;
 			sourceTree = "<group>";
@@ -111,6 +110,31 @@
 				5B6FE16C24D9389900478007 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B902DC2250E89B000634A3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B902DBE250E591C00634A3B /* Planets.swift */,
+				5B6FE17624D93BCE00478007 /* PlanetData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B902DC3250E8A1200634A3B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5B902DBC250E58E100634A3B /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5B902DC4250E8A1B00634A3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B6FE17824D93C6800478007 /* HomeView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
