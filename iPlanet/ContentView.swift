@@ -14,7 +14,13 @@ struct ContentView: View {
     var body: some View {
         TabView {
             ForEach(solarSystem) { planet in
+                ZStack{
+                    Color.white
+                    .shadow(color: Color.black.opacity(0.3), radius: 10, x: 5, y: 8)
+                        .cornerRadius(20)
                 HomeView(planet: planet)
+                }.padding(30)
+
             } //: LOOP
         } //: TAB
         .tabViewStyle(PageTabViewStyle())

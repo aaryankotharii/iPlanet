@@ -17,7 +17,7 @@ struct HomeView: View {
     var body: some View {
         VStack{
             SceneView(scene: SCNScene(named:  planet.modelName), options: [.allowsCameraControl,.autoenablesDefaultLighting])
-                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height/2)
+                .frame(width: UIScreen.main.bounds.width*0.75, height: UIScreen.main.bounds.height/3)
                 .scaleEffect(isAnimating ? 1.0 : 0.6)
             
             Text(planet.name)
